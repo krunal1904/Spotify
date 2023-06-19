@@ -10,4 +10,3 @@ urlpatterns = [
     path('spotify-login', views.spotify_login, name='spotify-login'),
     path('redirect', views.spotify_callback, name='spotify-callback'),
 ]
-                 
